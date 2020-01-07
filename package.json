@@ -2,7 +2,7 @@
   "name": "decker-frontend",
   "version": "1.0.0",
   "description": "Innovation Project",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,10 @@
     "url": "git+https://github.com/carlijnq/decker-frontend"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "nodemon": "^2.0.2"
+  }
 }
